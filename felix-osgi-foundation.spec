@@ -5,7 +5,7 @@
 
 Name:    %{?scl_prefix}felix-osgi-foundation
 Version: 1.2.0
-Release: 21.1%{?dist}
+Release: 21.2%{?dist}
 Summary: Felix OSGi Foundation EE Bundle
 Group:   Development/Libraries
 License: ASL 2.0
@@ -51,6 +51,9 @@ This package contains API documentation for %{pkg_name}.
 %doc LICENSE NOTICE
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 1.2.0-21.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 1.2.0-21.1
 - Automated package import and SCL-ization
 
